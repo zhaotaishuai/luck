@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>赵大帅</title>
+    <link rel="icon" href="img/图标.png">
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- CONFIG JS （IMPORTANT）-->
+	<script>
+		window.CONFIG = {
+			CON: {
+				DIRECTION: 'vertical',
+				EFFECT: 'slide'
+			},
+			MUSIC: 'sourse/彩虹糖的梦.mp3',
+			DESW: 375
+		};
+	</script>
+</head>
+<body>
+    <main class="mainBox" id="MAINBOX">
+        <div class="page1">
+            <img class="ani img01" src="img/宫崎骏.png"
+                swiper-animate-effect="bounceInRight"
+                swiper-animate-duration="1s"
+            >
+            <img class="ani" src="img/小龙猫.png"
+            swiper-animate-effect="wobble"
+                swiper-animate-duration="5s"
+                swiper-animate-count="infinite"
+            >
+            <img class="ani" src="img/龙猫文字.png"
+            swiper-animate-effect="bounceInLeft"
+                swiper-animate-duration="1s"
+                swiper-animate-delay="1s"
+            >
+        </div>
+    </main>
+    <script src="js/rem.js"></script>
+    <script src="js/runtime.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+</html>

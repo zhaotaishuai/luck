@@ -1,0 +1,30 @@
+.page1{
+    position: relative;
+    background: url(../img/龙猫1.png) no-repeat left top;
+    background-size: cover;
+}
+.page1 img{
+    position: absolute;
+}
+.page1 .img01{
+ left:0.2rem;
+ top:1.4rem;
+}
+.page1 img:nth-child(2){
+    left: 2.5rem;
+    top: 1rem;
+}
+.page1 img:nth-child(3){
+    left:1rem;
+    top:5.2rem;
+}
+@keyframes bounceInRight{
+    0%,100%,60%,75%,90%{
+        -webkit-transition-timing-function:cubic-bezier(0.215,.61,.355,1);transition-timing-function:cubic-bezier(0.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(3000px,0,0);transform:translate3d(3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}75%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)
+    }
+    90%{
+        -webkit-transform:translate3d(-5px,0,0);
+        transform:translate3d(-5px,0,0)
+    }
+    100%{-webkit-transform:none;transform:none}
+}
